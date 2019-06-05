@@ -70,6 +70,15 @@
 		<Property Name="typedefPath1" Type="PathRel">../States.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"E9!!!!"A!A!!!!!!"!%Y!]1!!!!!!!!!"#F.U982F=SZD&gt;'Q!/U!7!!1'4G^S&lt;7&amp;M"5ZJ:WBU$62S97:G;7-A;G&amp;N)$%.6(*B:G:J9S"K97UA-A!!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Repairing" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Set state" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -93,5 +102,14 @@
 		<Property Name="Path" Type="Str">/PROJEKT INTERAKCJA.lvproj/My Computer/Traffic Lights.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Traffic light failure" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
