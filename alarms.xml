@@ -1,0 +1,33 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly'>
+		<s:AttributeType name='ID' rs:number='1' rs:maydefer='true' rs:writeunknown='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='AlarmType' rs:number='2' rs:nullable='true' rs:maydefer='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='SetTime' rs:number='3' rs:nullable='true' rs:maydefer='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='AckTime' rs:number='4' rs:nullable='true' rs:maydefer='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='ClearTime' rs:number='5' rs:nullable='true' rs:maydefer='true' rs:writeunknown='true'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row ID='241' AlarmType='Traffic light failure' SetTime='6/9/2019 9:46:31 AM' AckTime='6/9/2019 9:46:39 AM'
+		 ClearTime='6/9/2019 9:46:40 AM'/>
+	<z:row ID='242' AlarmType='Traffic light failure' SetTime='6/9/2019 9:46:44 AM' AckTime='Unknown' ClearTime='6/9/2019 9:55:08 AM'/>
+	<z:row ID='243' AlarmType='Accident' SetTime='6/9/2019 9:49:15 AM' AckTime='6/9/2019 9:49:27 AM' ClearTime='6/9/2019 9:49:36 AM'/>
+	<z:row ID='244' AlarmType='Accident' SetTime='6/9/2019 9:50:05 AM' AckTime='6/9/2019 9:50:08 AM' ClearTime='6/9/2019 9:50:09 AM'/>
+	<z:row ID='245' AlarmType='Accident' SetTime='6/9/2019 9:55:08 AM' AckTime='Unknown' ClearTime='6/9/2019 9:55:08 AM'/>
+</rs:data>
+</xml>

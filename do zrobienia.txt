@@ -1,0 +1,9 @@
+1 + zapis alarmow dla serwisanta
+2 + filtracja tabelki
+3 + zapis do pliku
+4 +- wizualizacja alarmow na wizualizacji
+5 + w tle byl czas a nie w global settings
+6 - 3 lampki dla kazdego logowania (start.vi)
+7 + opis alarmow dodac ( np. jak polcjant wciska ze jest naprawiono to zeby wpisal co to za alarm)
+8 - sprawdzic zamykanie okienek czy dziala
+9 - zrobic zeby ladnie wygladalo :)

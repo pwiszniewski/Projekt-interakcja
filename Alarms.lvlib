@@ -4,11 +4,35 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Accident" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Alarming:Boolean:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Boolean:AlarmOn" Type="Str">High</Property>
+		<Property Name="Alarming:Boolean:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Boolean:Area" Type="Str"></Property>
+		<Property Name="Alarming:Boolean:Description" Type="Str"></Property>
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Boolean:Name" Type="Str">Boolean</Property>
+		<Property Name="Alarming:Boolean:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">True</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">False</Property>
+		<Property Name="Alarming:Status:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Status:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Status:Area" Type="Str"></Property>
+		<Property Name="Alarming:Status:Description" Type="Str"></Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+		<Property Name="Alarming:Status:Name" Type="Str">Status</Property>
+		<Property Name="Alarming:Status:Priority" Type="Str">15</Property>
+		<Property Name="Description:Description" Type="Str"></Property>
+		<Property Name="featurePacks" Type="Str">Network,Alarming</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
+		<Property Name="Network:ProjectPath" Type="Str">/</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PROJEKT INTERAKCJA.lvproj/My Computer/Libraries/Alarms.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -18,6 +42,36 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Repairing" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Traffic light failure" Type="Variable">
+		<Property Name="Alarming:Boolean:AckType" Type="Str">Auto</Property>
+		<Property Name="Alarming:Boolean:AlarmOn" Type="Str">High</Property>
+		<Property Name="Alarming:Boolean:AllowLog" Type="Str">True</Property>
+		<Property Name="Alarming:Boolean:Area" Type="Str"></Property>
+		<Property Name="Alarming:Boolean:Description" Type="Str"></Property>
+		<Property Name="Alarming:Boolean:Enabled" Type="Str">True</Property>
+		<Property Name="Alarming:Boolean:Name" Type="Str">Boolean</Property>
+		<Property Name="Alarming:Boolean:Priority" Type="Str">1</Property>
+		<Property Name="Alarming:EventOnDataChange" Type="Str">False</Property>
+		<Property Name="Alarming:EventOnUserInputOnly" Type="Str">True</Property>
+		<Property Name="Alarming:Status:Enabled" Type="Str">False</Property>
+		<Property Name="featurePacks" Type="Str">Network,Alarming</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PROJEKT INTERAKCJA.lvproj/My Computer/Libraries/Alarms.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
